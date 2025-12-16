@@ -1,0 +1,26 @@
+{
+  "name": "gccdha.github.io",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/gccdha.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gccdha/gccdha.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gccdha/gccdha.github.io/issues"
+  },
+  "homepage": "https://github.com/gccdha/gccdha.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "type": "module"
+}
