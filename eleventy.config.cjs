@@ -8,6 +8,7 @@ module.exports = async function(eleventyConfig) {
   };
   eleventyConfig.setLibrary("md", markdownIt(options));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  eleventyConfig.addPassthroughCopy("CNAME");
 };
 
 module.exports.config = {
