@@ -16,9 +16,9 @@
         ];
         
         #uncomment this and fill with your shell hook
-        # shellHook = ''
-        #   echo "starting devshell"
-        # '';
+        shellHook = ''
+          exec zsh
+        '';
       };
     }) nixpkgs.legacyPackages;
   };
