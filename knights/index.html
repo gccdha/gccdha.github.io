@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>knights | realram.dev</title>
+    <style>
+      html {
+        background-color: #ECE7E3;
+      }
+      body {
+        font-family: system-ui, sans-serif;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+      }
+      @media (max-width: 1000px) {
+        body {
+          font-size: 40px;
+        }
+      }
+      picture {
+        display: block;
+        text-align: center;
+      }
+      #avatar {
+        object-fit: cover;
+        width: 7em;
+        height: auto;
+
+        border-radius: 50%;
+        margin-top: 20vh;
+      }
+      .socials {
+        font-size: 2em;
+      }
+      .socials a, .socials a:hover, .socials a:visited, .socials a:active, .navbar a, .navbar a:visited, .navbar a:active {
+        color: inherit; 
+        text-decoration: none;
+      }
+      .navbar a {
+        border: 2px solid;
+        border-radius: 4px;
+        padding: 5px 10px;
+        margin: 0px 10px
+      }
+      .navbar {
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+      }
+      .navbar a:hover {
+        color: #333;
+      }
+      .article {
+        max-width: 900px;
+      }
+      .article :is(h1, h2, h3, h4, h5, h6) {
+        text-align: center;
+        margin-top: 2em;
+      }
+    </style>
+    <link rel="icon" type="image/png" sizes="48x48" href="/icons/favicon-48x48.png">
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/regular.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a>About</a>
+      <a href="/projects">Projects</a>
+      <a>Contact</a>
+    </div>
+    
+<div class="article">
+  <h1>Knights</h1>
+<p>A while ago, I was watching <a href="https://youtube.com">this Numberphile video</a> about pieces
+aranged on an infinite chessboard. I had a few variations on this concept that I wanted to see so I
+created a small program to generate them. I mainly was interested in how space filling curves other
+than a spiral would effect the result, but also added in functionality for custom pieces. A few weeks
+later I was looking for a project to tinker with WASM and this seemed like a good candidate.</p>
+ 
+</div>
+
+  </body>
+</html>
+
